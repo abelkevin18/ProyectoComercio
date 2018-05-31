@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="home.index"
+		template="/WEB-INF/views/templates/templateUser.jsp">
+		<put-attribute name="title" value="Inicio"/>
+		<put-attribute name="content"
+			value="/WEB-INF/views/home/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="contact.index"
+		template="/WEB-INF/views/templates/templateShop.jsp">
+		<put-attribute name="title" value="Contacto"/>
+		<put-attribute name="content"
+			value="/WEB-INF/views/contact/index.jsp"></put-attribute>
+	</definition>
+	<definition name="cart.index"
+		template="/WEB-INF/views/templates/templateShop.jsp">
+		<put-attribute name="title" value="Carrito"/>
+		<put-attribute name="content"
+			value="/WEB-INF/views/cart/index.jsp"></put-attribute>
+	</definition>
+	<definition name="products.products"
+		template="/WEB-INF/views/templates/templateShop.jsp">
+		<put-attribute name="title" value="Productos"/>
+		<put-attribute name="content"
+			value="/WEB-INF/views/products/products.jsp"></put-attribute>
+	</definition>
+	<definition name="signin.index"
+		template="/WEB-INF/views/templates/templateShop.jsp">
+		<put-attribute name="title" value="Registro/Ingreso"/>
+		<put-attribute name="content"
+			value="/WEB-INF/views/signin/index.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>
